@@ -1,0 +1,42 @@
+body {
+    background: #F9F9F9; 
+}
+
+.wrap_content {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #FFFFFF;
+    height: 116px;
+}
+
+.header_top {
+    max-width: 1027px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 13%;
+}
+
+.navigation {
+    display: inline-block;
+    vertical-align: middle;
+    width: 86%;
+    text-align: right;
+}
+
+.navigation__item {
+    display: inline-block;
+    padding-left: 18px;
+}
+
+.navigation__item:first-child {
+    padding-left:inherit;
+}
