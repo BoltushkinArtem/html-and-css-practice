@@ -34,7 +34,8 @@ body {
 
 .navigation__item {
     display: inline-block;
-    padding-left: 18px;
+    margin-left: 18px;
+    cursor: pointer;
 }
 
 .navigation__item:first-child {
